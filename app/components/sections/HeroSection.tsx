@@ -98,7 +98,7 @@ export default function HeroSection() {
 
               {/* CTA */}
               <div className="flex flex-wrap gap-4">
-                <Link href="/services" alt="View Our Services">
+                <Link href="/services">
                 <button className="flex items-center gap-2 bg-blue-500/50 hover:bg-blue-600 transition px-6 py-4 rounded-2xl font-semibold shadow-lg shadow-blue-500/30">
                   View Our Services
                 </button>
