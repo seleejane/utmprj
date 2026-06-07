@@ -53,7 +53,7 @@ export default function NavBar() {
 
             {/* RIGHT ACTIONS */}
             <div className="hidden lg:flex items-center gap-2">
-              <Link href="/contact" alt="Contact Support">
+              <Link href="/contact">
               <button className="flex items-center gap-2 bg-blue-500/50 hover:bg-blue-600 text-white px-5 py-3 rounded-2xl transition shadow-lg shadow-blue-500/20">
                 <BiSupport className="w-5 h-5" />
                 Contact Support
