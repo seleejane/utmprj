@@ -5,7 +5,7 @@ export default function ServicesSection() {
   return (
     <section
       id="services"
-      className="py-24 bg-muted/40"
+      className="py-24 bg-gradient-to-br from-black/60 to-blue-800/60"
     >
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-12">
