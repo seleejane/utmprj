@@ -30,7 +30,7 @@ export default function RootLayout({
       className={cn("antialiased", fontMono.variable, "font-sans", geist.variable)}
     >
       <body>
-        <ThemeProvider>
+        <ThemeProvider defaultTheme="dark" attribute="class">
           <Header />
           {children}
           <Footer />
