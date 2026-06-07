@@ -6,7 +6,7 @@
   "packageManager": "npm@11.5.2",
   "scripts": {
     "dev": "next dev",
-    "build":"npm run build",
+    "build":"next build",
     "start": "next start",
     "lint": "eslint",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
