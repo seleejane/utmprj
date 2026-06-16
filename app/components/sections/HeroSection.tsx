@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Music2, Ticket, Download, CalendarDays, MapPin, ChevronLeft, ChevronRight } from "lucide-react"; 
+import { Music2, Ticket, Download, CalendarDays, MapPin, ChevronLeft, ChevronRight, MailIcon, List} from "lucide-react"; 
 
 const featuredEvents = [
   {
@@ -100,14 +100,16 @@ export default function HeroSection() {
               <div className="flex flex-wrap gap-4">
                 <Link href="/services">
                 <button className="flex items-center gap-2 bg-blue-500/50 hover:bg-blue-600 transition px-6 py-4 rounded-2xl font-semibold shadow-lg shadow-blue-500/30">
+                  <List className="w-5 h-5" />
                   View Our Services
                 </button>
                 </Link>
-
+                <Link href="/contact">
                 <button className="flex items-center gap-2 border border-white/20 bg-green-500/30 hover:bg-green-500/50 transition px-6 py-4 rounded-2xl font-semibold backdrop-blur-sm">
-                  <Download className="w-5 h-5" />
-                  Download App
+                  <MailIcon className="w-5 h-5" />
+                  Contact Sales
                 </button>
+                </Link>
               </div>
             </div>
 
@@ -115,11 +117,14 @@ export default function HeroSection() {
             <div className="relative">
               <div className="bg-white/50 border border-white/10 backdrop-blur-xl rounded-3xl p-8 shadow-2xl">
 
-                <Link
-  href={`${currentEvent.slug}?title=${encodeURIComponent(
+               
+  {/* 
+    href={`${currentEvent.slug}?title=${encodeURIComponent(
     currentEvent.title
-  )}`}
->
+  )}`>
+  */}  
+  
+  <Link href={"/services"}>
   <Image
     src={currentEvent.imgSrc}
     alt={currentEvent.title}

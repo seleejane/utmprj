@@ -90,7 +90,7 @@ export default function AboutUs() {
         {/* Company History */}
         <div className="mt-20 grid gap-12 lg:grid-cols-2">
 
-          <div>
+          <div className="rounded-2xl border bg-card p-8 bg-white/5 backdrop-blur-sm">
             <h2 className="mb-6 text-3xl font-bold">
               Our Story
             </h2>
