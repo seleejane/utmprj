@@ -43,40 +43,43 @@ export default function ContactSection() {
 
             <div className="space-y-3 text-gray-300">
               <p>
-                Plot 1234, CBD Square
+                Plot 5301,Village 
                 <br />
                 Gaborone, Botswana
               </p>
 
               <p className="text-gray-300">
-                +267 71 234 567
+                +267 71 546 336 
+                <br />
+                +267 72 142 601
               </p>
 
-              <p className="text-sm text-gray-300">
-                support@utmprojects.com
-              </p>
+              
             </div>
           </div>
 
           {/* Francistown */}
           <div className="bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-sm">
             <h3 className="text-2xl font-bold mb-4 text-blue-400">
-              Francistown Office
+              Contact Details
             </h3>
 
             <div className="space-y-3 text-gray-300">
               <p className="text-gray-300">
-                Plot 5678, Blue Jacket Street
+                info@utmprojects.com
                 <br />
-                Francistown, Botswana
+                utmprojects@gmail.com
               </p>
 
-              <p>+267 72 987 654</p>
+              
               <p className="text-sm text-gray-300">
-                support@utmprojects.com
+                P O Box  1027ABG, 
+                <br />
+                Gaborone Botswana
               </p>
             </div>
           </div>
+          
         </div>
       </div>
 
