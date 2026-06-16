@@ -53,8 +53,8 @@ function Services() {
               </CardHeader>
 
               <CardFooter>
-                <Button className="w-full">
-                  Learn More
+                <Button className="w-full h-12 bg-blue-600/10 hover:bg-blue-700/20 text-white font-semibold rounded-lg shadow-md transition">
+                  {/* Contact Us */}
                 </Button>
               </CardFooter>
             </Card>

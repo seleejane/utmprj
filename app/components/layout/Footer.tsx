@@ -167,9 +167,11 @@ export default function Footer() {
         </div>
 
         {/* DIVIDER */}
-        <div className="border-t border-white/10 my-10"></div>
+        <div className="border-t border-white/30 my-10"></div>
 
         {/* BOTTOM SECTION */}
+        
+        {/*
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
 
         <div className="flex items-center gap-6 text-sm">
@@ -194,11 +196,15 @@ export default function Footer() {
               Support
             </a>
           </div>
+          
         </div>
+        */}
 
       <div className="container mx-auto text-center">
-        © {new Date().getFullYear()} UTM Projects (Pty) Ltd.
-        All Rights Reserved.
+       <h3 className="text-sm font-semibold text-gray-400">
+         © {new Date().getFullYear()} UTM Projects (Pty) Ltd.
+         All Rights Reserved.
+       </h3>
       </div>
       </div>
       
